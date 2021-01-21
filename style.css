@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.content {
+    margin-top: 10%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://static-cse.canva.com/blob/194906/Swirling-Stars-and-Space-Video-Zoom-Virtual-Background-1.jpg);
+    background-repeat: no-repeat;
+}
+
+.content input {
+    height: 35px;
+    width: 31%;
+    margin-left: 1.5%;
+    margin-bottom: 2%;
+    outline: none;
+    border: 0;
+    background-color: #e195ffd0;
+    padding-left: 5%;
+}
+
+.content button {
+    height: 35px;
+    width: 31%;
+    border: 0;
+    margin: .5%;
+}
